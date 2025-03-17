@@ -1,4 +1,3 @@
-C:\Users\prr-4\source\repos\Marathon2\Marathon2\obj\Debug\Marathon2.csproj.AssemblyReference.cache
 C:\Users\prr-4\source\repos\Marathon2\Marathon2\obj\Debug\MainWindow.g.cs
 C:\Users\prr-4\source\repos\Marathon2\Marathon2\obj\Debug\Pages\AutorizPage.g.cs
 C:\Users\prr-4\source\repos\Marathon2\Marathon2\obj\Debug\Pages\MainPage.g.cs
@@ -30,3 +29,14 @@ C:\Users\prr-4\source\repos\Marathon2\Marathon2\obj\Debug\Marathon2.exe
 C:\Users\prr-4\source\repos\Marathon2\Marathon2\obj\Debug\Marathon2.pdb
 C:\Users\prr-4\source\repos\Marathon2\Marathon2\obj\Debug\Pages\RannerPage.g.cs
 C:\Users\prr-4\source\repos\Marathon2\Marathon2\obj\Debug\Pages\RannerPage.baml
+C:\Users\prr-4\source\repos\Marathon2\Marathon2\obj\Debug\Pages\DobUserPage.g.cs
+C:\Users\prr-4\source\repos\Marathon2\Marathon2\obj\Debug\Pages\MenuAdminPage.g.cs
+C:\Users\prr-4\source\repos\Marathon2\Marathon2\obj\Debug\Pages\MenuUserPage.g.cs
+C:\Users\prr-4\source\repos\Marathon2\Marathon2\obj\Debug\Pages\RedactPage.g.cs
+C:\Users\prr-4\source\repos\Marathon2\Marathon2\obj\Debug\Pages\RedactUserPage.g.cs
+C:\Users\prr-4\source\repos\Marathon2\Marathon2\obj\Debug\Pages\DobUserPage.baml
+C:\Users\prr-4\source\repos\Marathon2\Marathon2\obj\Debug\Pages\MenuAdminPage.baml
+C:\Users\prr-4\source\repos\Marathon2\Marathon2\obj\Debug\Pages\MenuUserPage.baml
+C:\Users\prr-4\source\repos\Marathon2\Marathon2\obj\Debug\Pages\RedactPage.baml
+C:\Users\prr-4\source\repos\Marathon2\Marathon2\obj\Debug\Pages\RedactUserPage.baml
+C:\Users\prr-4\source\repos\Marathon2\Marathon2\obj\Debug\Marathon2.csproj.AssemblyReference.cache

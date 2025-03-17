@@ -150,11 +150,31 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\DobUserPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\MenuAdminPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\MenuUserPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\RannerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\RedactPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\RedactUserPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -168,15 +188,31 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MFrame.cs" />
     <Compile Include="Pages\AutorizPage.xaml.cs">
       <DependentUpon>AutorizPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DobUserPage.xaml.cs">
+      <DependentUpon>DobUserPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\marathonEntities.cs" />
+    <Compile Include="Pages\MenuAdminPage.xaml.cs">
+      <DependentUpon>MenuAdminPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MenuUserPage.xaml.cs">
+      <DependentUpon>MenuUserPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\RannerPage.xaml.cs">
       <DependentUpon>RannerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RedactPage.xaml.cs">
+      <DependentUpon>RedactPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RedactUserPage.xaml.cs">
+      <DependentUpon>RedactUserPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\RegPage.xaml.cs">
       <DependentUpon>RegPage.xaml</DependentUpon>

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\prr-4\source\repos\Marathon2\Marathon2\App.xaml
-6693984217
+111740080891
 2-1531956760
-341455800832
+401146397871
 181956976939
-MainWindow.xaml;Pages\AutorizPage.xaml;Pages\MainPage.xaml;Pages\RannerPage.xaml;Pages\RegPage.xaml;Pages\RunnerTablePage.xaml;
+MainWindow.xaml;Pages\AutorizPage.xaml;Pages\DobUserPage.xaml;Pages\MainPage.xaml;Pages\MenuAdminPage.xaml;Pages\MenuUserPage.xaml;Pages\RannerPage.xaml;Pages\RedactPage.xaml;Pages\RedactUserPage.xaml;Pages\RegPage.xaml;Pages\RunnerTablePage.xaml;
 
-True
+False
 

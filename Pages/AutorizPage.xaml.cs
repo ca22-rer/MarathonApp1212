@@ -28,12 +28,14 @@ namespace Marathon2.Pages
         }
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
-            
+            var admin = "admin";
+
             var email = EmailTexboxPag3.Text;
             var pass = PasswordPag3.Password;
             var db = new Aplication.MarathonSkillsEntities();
             // var user = db.User.Where(u => u.Email == email && u.Password == pass).FirstOrDefault();
             var runner = db.Runner.Where(r => r.Email == email && r.User.Password == pass).FirstOrDefault();
+            
             /*
               if (user != null)
             {
@@ -45,6 +47,12 @@ namespace Marathon2.Pages
             {
                 var p = new RannerPage(runner);
                 this.NavigationService.Navigate(new RannerPage(runner));
+
+            }
+            if (email == admin & pass == admin)
+            {
+                this.NavigationService.Navigate(new Pages.MenuAdminPage());
+                //MFrame.MaFrame.Navigate(new Pages.MenuAdminPage());
 
             }
             else

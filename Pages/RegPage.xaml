@@ -49,7 +49,7 @@
         <TextBox Grid.Column="3" Grid.Row="8" HorizontalAlignment="Left" Name="StranaTextBox"  Width="130" >Russia</TextBox>
         <TextBox Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" Name="EmailTextBox"  Width="190" >Email@</TextBox>
         <TextBox Grid.Column="1" Grid.Row="3" HorizontalAlignment="Left" Name="PasswBox2"  Width="130" ></TextBox>
-        <TextBox Grid.Column="1" Grid.Row="4" HorizontalAlignment="Left" Name="PasswBox22"  Width="130" ></TextBox>
+        <TextBox Grid.Column="1" Grid.Row="4" HorizontalAlignment="Left" Name="PasswBox22"  Width="130" TextChanged="PasswBox22_TextChanged" ></TextBox>
         <TextBox Grid.Column="1" Grid.Row="5" HorizontalAlignment="Left" Name="ImTextBox" Margin="0,0,0,5" Width="190" >Имя</TextBox>
         <TextBox Grid.Column="1" Grid.Row="6" HorizontalAlignment="Left" Name="FamTextBox" Margin="0,0,0,5" Width="190" >Фамилия</TextBox>
         <TextBox Grid.Column="1" Grid.Row="7" HorizontalAlignment="Left" Name="PolTextBox" Margin="0,0,0,5" Width="190" >Пол</TextBox>

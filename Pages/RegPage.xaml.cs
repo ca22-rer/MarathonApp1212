@@ -108,15 +108,37 @@ namespace Marathon2.Pages
             }
 
             var u = new Aplication.User();
-            u.Email = email;
+            u.Email = "a."+ email;
+            
             u.LastName = name;
             u.FirstName = fam;
             u.Password = pass;
             u.RoleId = "R";
             Core.DB.User.Add(u);
             Core.DB.SaveChanges();
+            //MessageBox.Show("Пользователь добавлен");
+            //this.NavigationService.GoBack();
+
+
+            var Country = StranaTextBox.Text;
+            var Gender = PolTextBox.Text;
+            //var DatOBri = DataRojTextBox.DataContext;
+
+
+            var q = new Aplication.Runner();
+            q.Email = email;
+            q.CountryCode = Country;
+            q.Gender = Gender;
+           // q.DateOfBirth = (DateTime?)DatOBri;
+            Core.DB.Runner.Add(q);
+            Core.DB.SaveChanges();
             MessageBox.Show("Пользователь добавлен");
             this.NavigationService.GoBack();
+
+        }
+
+        private void PasswBox22_TextChanged(object sender, TextChangedEventArgs e)
+        {
 
         }
     }

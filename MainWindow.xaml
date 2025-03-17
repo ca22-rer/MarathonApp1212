@@ -13,6 +13,7 @@
             <RowDefinition Height="50"></RowDefinition>
         </Grid.RowDefinitions>
         <Frame Name="MainFrame"  Background="LightBlue"  Grid.Row="1"></Frame>
+        <Frame Name="MFrame"   Grid.Row="1"></Frame>
         <Frame NavigationUIVisibility="Hidden" Background="LightGray"></Frame>
         <Button Name="GoBackButton"   Click ="GlobalButton_Click"  HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="103">Назад</Button>
         <Label   Background="LightGray" FontSize="30" Margin="239,0,169,0">MARATHON SKILLS 2016</Label>
